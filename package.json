@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/JoelKM/kepleranalysis.me/issues"
   },
-  "homepage": "https://github.com/JoelKM/kepleranalysis.me#readme"
+  "homepage": "https://github.com/JoelKM/kepleranalysis.me#readme",
+  "dependencies": {
+    "csv-parse": "^5.3.3"
+  }
 }
