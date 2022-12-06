@@ -4,6 +4,7 @@
   "description": "Filters planets shows them using kepler data from csv files",
   "main": "main.js",
   "scripts": {
+    "start": "node main.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
