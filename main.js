@@ -33,9 +33,30 @@ function temperatureChosen(){
 }
 
 //Size
+function sizeInterval(){
 
+}
+function sizeChosen(){
+    factor = sizeInterval
+        console.log('Chosen option: Temperature')
+        do{
+            if(bottomTemp > topTemp) console.log("Error, the superior temperature can't be lower than the bottom temperature")
+            console.log('Please enter the temperature interval')
+        }while(bottomTemp > topTemp)
+}
 
+//Orbital period
+function orbitalPeriodInterval(){
 
+}
+function orbitalPeriodChosen(){
+    factor = sizeInterval
+        console.log('Chosen option: Temperature')
+        do{
+            if(bottomTemp > topTemp) console.log("Error, the superior temperature can't be lower than the bottom temperature")
+            console.log('Please enter the temperature interval')
+        }while(bottomTemp > topTemp)
+}
 
 switch(userOption){
     case 1:
@@ -45,10 +66,10 @@ switch(userOption){
         temperatureChosen
     break;
     case 3:
-        factor =
-        console.log('Option chose: Habitability')
+        sizeChosen
     break;
     case 4:
+        orbitalPeriodChosen
     break;
 }
 
