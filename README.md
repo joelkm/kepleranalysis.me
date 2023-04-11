@@ -12,10 +12,10 @@ It is a CLI application that gets a list of the registered planets by the Kepler
 The data gets parsed as a stream the CSV of the registered planets in [Kepler's website](https://www.nasa.gov/mission_pages/kepler/).
 
 User requirements can be specified choosing between these options:
-1.- Habitable planets
-2.- Planets inside a certain temperature interval
-3.- Planets inside a certain size interval
-4.- Planets inside a certain orbital period interval
+- 1: Habitable planets
+- 2: Planets inside a certain temperature interval
+- 3: Planets inside a certain size interval
+- 4: Planets inside a certain orbital period interval
 
 The habitability conditions (extracted from Paul Glister's research on planet habitability) used to filter down planets where:
 - KOI disposition (A parameter to measure stellar disposition, explained in depth [here](https://exoplanetarchive.ipac.caltech.edu/docs/PurposeOfKOITable.html)
