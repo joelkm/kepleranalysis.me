@@ -18,7 +18,9 @@
   },
   "homepage": "https://github.com/JoelKM/kepleranalysis.me#readme",
   "dependencies": {
+    "chalk": "^5.2.0",
     "csv-parse": "^5.3.3",
+    "inquirer": "^9.2.2",
     "prompt-sync": "^4.2.0"
   }
 }
